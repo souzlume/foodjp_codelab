@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 70px;
+}
+header section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header section .Kanji {
+  width: 23px;
+}
+header section img {
+  width: 80px;
+}
+header section a {
+  color: #000000;
+  margin: 40px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+header section .RedButtomNav {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  border: thin;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+main {
+  margin: 70px;
+}
+main .Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .Container .Title {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+main .Container p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 20px 0 20px 0;
+}
+main .RedButtomMain {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  border: thin;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+main img {
+  width: 20vw;
+}
+main .Container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .Container2 .LetterRed {
+  font-family: "Koh Santepheap";
+  font-weight: 500;
+  font-size: 1em;
+  color: #ff0000;
+}
+main .Container2 .Title2 {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+main .Container2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 20px 0 20px 0;
+}
+main .Container2 img {
+  position: relative;
+  right: 100px;
+}
+main .Title3 {
+  margin: 60px 0 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+main .Container3 {
+  display: flex;
+  justify-content: center;
+}
+main .Container3 div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 50px;
+  background-color: #F8F5F2;
+}
+main .Container3 img {
+  position: relative;
+  bottom: 65px;
+  left: 43px;
+  width: 200px;
+}
+main .Container3 p {
+  padding: 0 50px 10px 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+main .Container3 .Price {
+  position: relative;
+  left: 60px;
+  color: #ff0000;
+  font-family: "Koh Santepheap", serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+main .Container3 .SubTitle {
+  margin-top: -40px;
+  font-family: "Koh Santepheap", serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+main .Title4 {
+  margin: 60px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+main .Container4 {
+  display: flex;
+  justify-content: center;
+}
+main .Container4 div {
+  border-radius: 10px;
+  padding: 50px 150px 10px 50px;
+  margin: 50px;
+  background-color: #F8F5F2;
+}
+main .Container4 div img {
+  width: 120px;
+}
+main .Container4 div .Name {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 500;
+  font-size: 28px;
+  margin: 10px 0;
+}
+main .Container4 div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 400px;
+  margin: 10px 0;
+}
+main .Container4 div .Coment2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 400px;
+  margin: 10px 0;
+}
+main .Container4 div .Star {
+  width: 20px;
+  margin: 20px 10px 10px 0;
+}
+
+footer .Div1 {
+  display: flex;
+  margin: 20px 60px 10px 60px;
+  justify-content: space-evenly;
+}
+footer .Div1 p {
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+footer nav {
+  display: flex;
+  margin: 0 60px 5px 60px;
+  justify-content: space-evenly;
+}
+footer nav p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+footer nav .Column1 {
+  position: relative;
+  left: 3px;
+}
+footer nav .Column3 {
+  position: relative;
+  left: 34px;
+}
+footer nav .Column4 {
+  position: relative;
+  left: 29px;
+}
+footer .Logos {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+footer .Logos .Kanji2 {
+  width: 23px;
+}
+footer .Logos .FoodJP {
+  width: 80px;
+}
+footer .Logos img {
+  width: 30px;
+}/*# sourceMappingURL=style.css.map */
